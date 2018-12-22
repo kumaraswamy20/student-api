@@ -9,5 +9,5 @@ const router = new Router()
 router.use('/students', students)
 router.use('/subjects', subjects)
 router.use('/marks', marks)
-router.use('/temp', marks)
+
 export default router
