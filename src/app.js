@@ -4,7 +4,7 @@ import express from './services/express'
 import api from './api'
 
 const mongoUri = "mongodb://localhost:27017/studentsdb";
-const port = 4000;
+const port = 3000;
 
 const app = express('', api)
 const server = http.createServer(app)
